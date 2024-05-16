@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+        bottom: 10px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="title">
+      <div class="balance">
+        <p>My balance</p>
+        <h3>$921.48</h3>
+      </div>
+      <img src="./images/logo.svg" alt="logo">
+    </header>
+    </div>
+    <div class="chart-container">
+      <h3>Spending - Last 7 days</h3>
+      <div class="chart">
+        <canvas class="chart" id="chart"></canvas>
+      </div>
+      <div class="monthly-balance">
+        <div class="money">
+          <p>Total this month</p>
+          <h1>$478.33</h1>
+        </div>
+        <div class="percentage">
+          <span>+2.4%</span>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/valonkraja">Valon Kraja</a>.
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
